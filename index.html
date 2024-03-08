@@ -1,1 +1,89 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"/><base href="./"/><link rel="icon" href="/EtCompleXDigitalTwin/favicon.ico"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="theme-color" content="#000000"/><meta name="description" content="Web site created using create-react-app"/><link rel="apple-touch-icon" href="/EtCompleXDigitalTwin/logo192.png"/><link rel="manifest" href="/EtCompleXDigitalTwin/manifest.json"/><title>E.T. CompleX - Digital Twin</title><script defer="defer" src="/EtCompleXDigitalTwin/static/js/main.5176c503.js"></script><link href="/EtCompleXDigitalTwin/static/css/main.23037022.css" rel="stylesheet"></head><body><noscript>You need to enable JavaScript to run this app.</noscript><div id="root"></div></body></html>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <link rel="stylesheet" href="css/styles.css" />
+        <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+        <script type="text/javascript" src="scripts/switch.js"></script>
+        <script type="text/javascript" src="scripts/map.js"></script>
+    </head>
+    <body>
+        <h1>E.T. CompleX</h1>
+        <div class="columns">
+            <div class="map-container" id="container">
+                <div class="map" id="slide">
+                    <img src="assets/aerial_view_crop.jpg" />
+                    <img
+                        src="assets/custom_pin.png"
+                        class="pin"
+                        onclick="switchVisibility('--graphVisibility'); switchVisibility('--dataVisibility')"
+                    />
+                </div>
+            </div>
+            <div class="data-container">
+                <div class="row">
+                    <div class="columns">
+                        <div>
+                            <input
+                                type="button"
+                                id="showSensorsButton"
+                                value="Show sensors"
+                                onclick="showSensorsButton()"
+                                style="
+                                    background-color: darkgreen;
+                                    color: white;
+                                    padding: 20px 30px;
+                                    text-align: center;
+                                    font-size: large;
+                                "
+                            />
+                            <p class="sensor-data">
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Ut
+                                enim ad minim veniam, quis nostrud exercitation
+                                ullamco laboris nisi ut aliquip ex ea commodo
+                                consequat. Duis aute irure dolor in
+                                reprehenderit in voluptate velit esse cillum
+                                dolore eu fugiat nulla pariatur. Excepteur sint
+                                occaecat cupidatat non proident, sunt in culpa
+                                qui officia deserunt mollit anim id est laborum
+                            </p>
+                        </div>
+                        <div>
+                            <img
+                                src="assets/graficolineare.png"
+                                class="graph"
+                            />
+                        </div>
+                    </div>
+                </div>
+                <div class="row" style="background-color: lightblue">
+                    <div class="col">
+                        <p style="text-align: center; font-size: 24px">
+                            PER RAGGIUNGERE LA NEUTRALITÀ CARBONICA, TI SERVONO:
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+
+    <script>
+        function showSensorsButton() {
+            var elem = document.getElementById('showSensorsButton')
+            if (elem.value == 'Show sensors') elem.value = 'Hide sensors'
+            else elem.value = 'Show sensors'
+            switchVisibility('--pinVisibility')
+            var pins = document.getElementsByClassName('pin')
+            for (let pin of pins) {
+                pin.style.animation = 'none'
+                setTimeout(function () {
+                    pin.style.animation = ''
+                }, 5)
+            }
+        }
+    </script>
+</html>
