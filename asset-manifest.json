@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ETCompleXDigitalTwin/static/css/main.44231444.css",
-    "main.js": "/ETCompleXDigitalTwin/static/js/main.bcbc1c8c.js",
+    "main.css": "/ETCompleXDigitalTwin/static/css/main.c8829198.css",
+    "main.js": "/ETCompleXDigitalTwin/static/js/main.462c9935.js",
     "static/js/453.d7c8ad91.chunk.js": "/ETCompleXDigitalTwin/static/js/453.d7c8ad91.chunk.js",
     "static/media/aerial_view_crop.jpg": "/ETCompleXDigitalTwin/static/media/aerial_view_crop.3b164cd332d9eaf73dd0.jpg",
     "static/media/logo_colori.png": "/ETCompleXDigitalTwin/static/media/logo_colori.95a63c7274aa5a772bd0.png",
@@ -13,12 +13,12 @@
     "static/media/faggio.png": "/ETCompleXDigitalTwin/static/media/faggio.a88d41fc0042492ca9b1.png",
     "static/media/cedro.png": "/ETCompleXDigitalTwin/static/media/cedro.29b84166fe3de8a351ad.png",
     "index.html": "/ETCompleXDigitalTwin/index.html",
-    "main.44231444.css.map": "/ETCompleXDigitalTwin/static/css/main.44231444.css.map",
-    "main.bcbc1c8c.js.map": "/ETCompleXDigitalTwin/static/js/main.bcbc1c8c.js.map",
+    "main.c8829198.css.map": "/ETCompleXDigitalTwin/static/css/main.c8829198.css.map",
+    "main.462c9935.js.map": "/ETCompleXDigitalTwin/static/js/main.462c9935.js.map",
     "453.d7c8ad91.chunk.js.map": "/ETCompleXDigitalTwin/static/js/453.d7c8ad91.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.44231444.css",
-    "static/js/main.bcbc1c8c.js"
+    "static/css/main.c8829198.css",
+    "static/js/main.462c9935.js"
   ]
 }
