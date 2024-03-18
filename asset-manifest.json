@@ -1,24 +1,26 @@
 {
   "files": {
-    "main.css": "/ETCompleXDigitalTwin/static/css/main.c8829198.css",
-    "main.js": "/ETCompleXDigitalTwin/static/js/main.462c9935.js",
+    "main.css": "/ETCompleXDigitalTwin/static/css/main.d98bb121.css",
+    "main.js": "/ETCompleXDigitalTwin/static/js/main.bcbc1c8c.js",
     "static/js/453.d7c8ad91.chunk.js": "/ETCompleXDigitalTwin/static/js/453.d7c8ad91.chunk.js",
     "static/media/aerial_view_crop.jpg": "/ETCompleXDigitalTwin/static/media/aerial_view_crop.3b164cd332d9eaf73dd0.jpg",
     "static/media/logo_colori.png": "/ETCompleXDigitalTwin/static/media/logo_colori.95a63c7274aa5a772bd0.png",
+    "static/media/Rubik-Regular.ttf": "/ETCompleXDigitalTwin/static/media/Rubik-Regular.55fa11cdc8b9a3ee842f.ttf",
     "static/media/custom_pin.png": "/ETCompleXDigitalTwin/static/media/custom_pin.33a46252ce0fef128053.png",
     "static/media/graficolineare2.png": "/ETCompleXDigitalTwin/static/media/graficolineare2.cc26174b242601a019d5.png",
     "static/media/graficolineare3.png": "/ETCompleXDigitalTwin/static/media/graficolineare3.f1017abfdec70baa4e34.png",
     "static/media/graficolineare1.png": "/ETCompleXDigitalTwin/static/media/graficolineare1.00d7a9f0d2cab2fc2e4c.png",
     "static/media/graficolineare.png": "/ETCompleXDigitalTwin/static/media/graficolineare.4b1f5d7366c9b5338c29.png",
     "static/media/faggio.png": "/ETCompleXDigitalTwin/static/media/faggio.a88d41fc0042492ca9b1.png",
+    "static/media/Now-Regular.otf": "/ETCompleXDigitalTwin/static/media/Now-Regular.15d2978d7c931ad966cf.otf",
     "static/media/cedro.png": "/ETCompleXDigitalTwin/static/media/cedro.29b84166fe3de8a351ad.png",
     "index.html": "/ETCompleXDigitalTwin/index.html",
-    "main.c8829198.css.map": "/ETCompleXDigitalTwin/static/css/main.c8829198.css.map",
-    "main.462c9935.js.map": "/ETCompleXDigitalTwin/static/js/main.462c9935.js.map",
+    "main.d98bb121.css.map": "/ETCompleXDigitalTwin/static/css/main.d98bb121.css.map",
+    "main.bcbc1c8c.js.map": "/ETCompleXDigitalTwin/static/js/main.bcbc1c8c.js.map",
     "453.d7c8ad91.chunk.js.map": "/ETCompleXDigitalTwin/static/js/453.d7c8ad91.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c8829198.css",
-    "static/js/main.462c9935.js"
+    "static/css/main.d98bb121.css",
+    "static/js/main.bcbc1c8c.js"
   ]
 }
